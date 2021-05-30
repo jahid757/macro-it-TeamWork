@@ -38,5 +38,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This is a team project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakibulHasaan/macro-it-TeamWork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SakibulHasaan/macro-it-TeamWork/issues"
+  },
+  "homepage": "https://github.com/SakibulHasaan/macro-it-TeamWork#readme"
 }
