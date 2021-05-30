@@ -1,0 +1,82 @@
+.nav-link{
+  font-weight: 600;
+  /* color:#000 !important; */
+}
+img{
+  width: 100%;
+}
+.slider_bg{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../src/images/Mask-Group-65.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.slider_content{
+  width: 40%;
+  padding: 100px;
+  background: rgba(24, 51, 114, 0.9);
+  color: #ffffff;
+  font-weight: 600;
+}
+h1.main_heading{
+  font-size: 50px;
+}
+.w-50{
+  margin: 0 auto;
+}
+
+i.icon{
+  font-size: 50px;
+  color: #faf608;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color:#183372;
+  border-radius: 5px;
+  border-bottom: 2px solid #faf608;
+}
+
+.icon-wrap i{
+  font-size: 40px;
+  color:#fe9435;
+}
+
+.w-25.border-2.me-2.border-end.icon-wrap{
+  border-right: 2px solid #000 !important;
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+  .slider_content{
+    width: 75%;
+    padding: 50px;
+  }
+  h1.main_heading{
+    font-size: 35px;
+  }
+  .w-50{
+    width: 100% !important;
+  }
+}
+@media (max-width: 500px){
+  .slider_content{
+    width: 85%;
+    padding: 25px;
+  }
+  .slider_content h1{
+    font-size: 25px;
+  }
+}
+
+
+@media (min-width:992px){
+  #navbarNavDropdown{
+    position: absolute;
+    right: 0;
+  }
+}
