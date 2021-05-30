@@ -1,10 +1,13 @@
 import React from 'react';
+import Footer from '../Home/Footer/Footer';
+import Header from '../Home/Header/Header';
 import ContactPageBody from './ContactPageBody/ContactPageBody';
 import './ContactUsPage.css'
 
 const ContactUsPage = () => {
     return (
         <div>
+            <Header/>
             <div className="contact-us">
                 <div>
                     <h1>Contact us</h1>
@@ -15,6 +18,8 @@ const ContactUsPage = () => {
             <div>
                 <ContactPageBody/>
             </div>
+
+            <Footer/>
         </div>
     );
 };
